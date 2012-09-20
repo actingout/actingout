@@ -1,0 +1,2125 @@
+2012/09/06 17:13:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\Actingout\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(271): CController->missingAction('')
+#1 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('')
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api')
+#3 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Actingout/index.php/api/
+---
+2012/09/06 17:16:58 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login
+---
+2012/09/06 17:18:03 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/Login
+---
+2012/09/06 17:18:31 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionLogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionLogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionLogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('Login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/Login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/Login
+---
+2012/09/06 17:18:32 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionLogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionLogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionLogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('Login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/Login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/Login
+---
+2012/09/06 17:18:35 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionLogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionLogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionLogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('Login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/Login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/Login/
+---
+2012/09/06 17:19:26 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionLogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionLogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionLogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('Login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/Login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:20:04 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionLogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionLogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionLogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('Login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/Login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:21:56 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:21:56 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:21:57 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:21:57 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:22:12 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:22:12 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:22:12 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:25:17 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:26:56 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:36:03 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:36:05 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:36:05 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:37:41 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:37:42 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:37:42 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:38:08 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:38:08 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:39:14 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/06 17:39:21 [error] [php] Array to string conversion (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:981)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/start
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (981)
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (117)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/06 17:40:30 [error] [php] Array to string conversion (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:981)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/start
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (981)
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (117)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/06 17:43:30 [error] [php] Array to string conversion (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:981)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/start
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (981)
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (117)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 08:39:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\Actingout\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(271): CController->missingAction('')
+#1 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('')
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api')
+#3 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Actingout/index.php/api/
+---
+2012/09/07 08:40:10 [error] [php] Array to string conversion (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:982)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/start/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (982)
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (117)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 08:41:30 [error] [php] Array to string conversion (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:982)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/start/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (982)
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (117)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 08:44:35 [error] [php] Array to string conversion (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:985)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/start/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (985)
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (117)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 08:44:36 [error] [php] Array to string conversion (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:985)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/start/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (985)
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (117)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 08:44:38 [error] [php] Array to string conversion (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:985)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/start/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (985)
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (117)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 08:49:54 [error] [php] include(Game.php): failed to open stream: No such file or directory (C:\xampp\htdocs\Actingout\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(122): spl_autoload_call()
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionStart()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/start/?userone_id=1&usertwo_id=1
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (122)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 09:19:30 [error] [php] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:149) (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:987)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionStart()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/start/?userone_id=1&usertwo_id=3
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (987)
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (154)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 10:00:40 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login
+---
+2012/09/07 10:01:03 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login
+---
+2012/09/07 10:01:11 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/07 10:02:10 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/07 10:02:11 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/07 10:02:42 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/07 10:02:42 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/07 10:02:42 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/07 10:02:43 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/07 10:02:45 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionlogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionlogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionlogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('login')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/login')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/login/
+---
+2012/09/07 10:20:32 [error] [php] Creating default object from empty value (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:183)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/submitGame
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (183)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 10:21:48 [error] [php] Creating default object from empty value (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:184)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/submitGame
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (184)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 10:27:11 [error] [php] Undefined index: game_hint (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:186)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/submitGame
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (186)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 10:28:07 [error] [php] Undefined index: game_hint (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:186)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/submitGame
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (186)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 10:30:37 [error] [php] Undefined index: game_status (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:188)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/submitGame
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (188)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 10:32:42 [error] [php] Undefined index: game_hint (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:186)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/submitGame
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (186)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 10:35:25 [error] [php] Undefined index: game_status (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:188)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/submitGame
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (188)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 11:02:41 [error] [php] include(AchievmentDetails.php): failed to open stream: No such file or directory (C:\xampp\htdocs\Actingout\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(288): spl_autoload_call()
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionAchievmentDetails()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/achievmentDetails
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (288)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 11:09:27 [error] [php] Undefined index: user_id (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:311)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/addAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (311)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 11:11:22 [error] [php] include(Achivment.php): failed to open stream: No such file or directory (C:\xampp\htdocs\Actingout\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(332): spl_autoload_call()
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionAddAchievement()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/addAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (332)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 11:14:39 [error] [php] Undefined variable: achivment (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:330)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/addAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (330)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 11:21:29 [error] [php] in_array() expects parameter 2 to be array, string given (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:368)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (368)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 11:25:45 [error] [php] Only variables should be passed by reference (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:370)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (370)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 11:32:59 [error] [php] Undefined index: result (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:378)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (378)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 11:34:16 [error] [php] Undefined index: result (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:378)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (378)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 11:34:40 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userone_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `user_achievements` `t` WHERE userone_id=:user_id OR usertwo_id=:user_id LIMIT 1.
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1074)
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (389)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 11:34:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userone_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `user_achievements` `t` WHERE userone_id=:user_id OR usertwo_id=:user_id LIMIT 1' in C:\xampp\htdocs\Actingout\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(1286): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(1391): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(1074): CActiveRecord->find(Object(CDbCriteria))
+#4 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(389): ApiController->getAchiements()
+#5 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionCheckAchievement()
+#6 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('checkAchievemen...')
+#10 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/checkAchiev...')
+#11 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+---
+2012/09/07 11:40:10 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userone_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `user_achievements` `t` WHERE userone_id=:user_id LIMIT 1.
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1074)
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (389)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 11:40:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userone_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `user_achievements` `t` WHERE userone_id=:user_id LIMIT 1' in C:\xampp\htdocs\Actingout\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(1286): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(1391): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(1074): CActiveRecord->find(Object(CDbCriteria))
+#4 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(389): ApiController->getAchiements()
+#5 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionCheckAchievement()
+#6 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('checkAchievemen...')
+#10 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/checkAchiev...')
+#11 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+---
+2012/09/07 11:40:57 [error] [php] Indirect modification of overloaded property UserAchievements::$categories_guess has no effect (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:394)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (394)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 12:00:28 [error] [php] unserialize() expects parameter 1 to be string, array given (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:395)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (395)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 12:01:58 [error] [php] Indirect modification of overloaded property UserAchievements::$categories_guess has no effect (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:396)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (396)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 12:04:52 [error] [php] Indirect modification of overloaded property UserAchievements::$categories_guess has no effect (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:393)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (393)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 12:06:38 [error] [php] Illegal string offset 'Feeling' (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:393)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (393)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 12:06:57 [error] [php] Illegal string offset 'Feeling' (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:393)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (393)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 12:08:04 [error] [php] Indirect modification of overloaded property UserAchievements::$categories_guess has no effect (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:393)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (393)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 12:10:29 [error] [php] Indirect modification of overloaded property UserAchievements::$categories_guess has no effect (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:393)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (393)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 12:17:56 [error] [php] Array to string conversion (C:\xampp\htdocs\Actingout\framework\db\schema\CDbColumnSchema.php:141)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(1059): UserAchievements->updateByPk()
+#1 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(791): UserAchievements->update()
+#2 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(412): UserAchievements->save()
+#3 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionCheckAchievement()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#6 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#8 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (412)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 12:22:33 [error] [php] Array to string conversion (C:\xampp\htdocs\Actingout\framework\db\schema\CDbColumnSchema.php:141)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(1059): UserAchievements->updateByPk()
+#1 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(791): UserAchievements->update()
+#2 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(418): UserAchievements->save()
+#3 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionCheckAchievement()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#6 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#8 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (418)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 12:24:04 [error] [php] Array to string conversion (C:\xampp\htdocs\Actingout\framework\db\schema\CDbColumnSchema.php:141)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(1059): UserAchievements->updateByPk()
+#1 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(791): UserAchievements->update()
+#2 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(418): UserAchievements->save()
+#3 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionCheckAchievement()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#6 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#8 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (418)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 12:28:57 [error] [php] Array to string conversion (C:\xampp\htdocs\Actingout\framework\db\schema\CDbColumnSchema.php:141)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(1059): UserAchievements->updateByPk()
+#1 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(791): UserAchievements->update()
+#2 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(419): UserAchievements->save()
+#3 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionCheckAchievement()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#6 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#8 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (419)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 12:30:44 [error] [php] Undefined index: user_id (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:351)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (351)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 12:37:23 [error] [php] Array to string conversion (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (427)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 12:41:14 [error] [php] Array to string conversion (C:\xampp\htdocs\Actingout\framework\db\schema\CDbColumnSchema.php:141)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(1059): UserAchievements->updateByPk()
+#1 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(791): UserAchievements->update()
+#2 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(419): UserAchievements->save()
+#3 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionCheckAchievement()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#6 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#8 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (419)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 12:41:34 [error] [php] Array to string conversion (C:\xampp\htdocs\Actingout\framework\db\schema\CDbColumnSchema.php:141)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(1059): UserAchievements->updateByPk()
+#1 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(791): UserAchievements->update()
+#2 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(419): UserAchievements->save()
+#3 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionCheckAchievement()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#6 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#8 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (419)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 12:48:58 [error] [php] Array to string conversion (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:389)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (389)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 13:01:21 [error] [php] Undefined index: user_id (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:351)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (351)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 13:01:37 [error] [php] Undefined index: user_id (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:351)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (351)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 13:01:51 [error] [exception.CException] exception 'CException' with message 'Property "AchievementDetails.guess" is not defined.' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(160): CComponent->__set('guess', 1)
+#1 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(454): CActiveRecord->__set('guess', 1)
+#2 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionCheckAchievement()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('checkAchievemen...')
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/checkAchiev...')
+#8 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+---
+2012/09/07 13:03:58 [error] [exception.CException] exception 'CException' with message 'Property "AchievementDetails.guess" is not defined.' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(160): CComponent->__set('guess', 1)
+#1 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(454): CActiveRecord->__set('guess', 1)
+#2 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionCheckAchievement()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('checkAchievemen...')
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/checkAchiev...')
+#8 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+---
+2012/09/07 13:25:40 [error] [php] Undefined index: user_id (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:505)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/getAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (505)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 14:09:59 [error] [php] Undefined index: game_id (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:717)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/updateGameStatus
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (717)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 14:11:04 [error] [php] include(GameStatus.php): failed to open stream: No such file or directory (C:\xampp\htdocs\Actingout\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(720): spl_autoload_call()
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionUpdateGameStatus()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/updateGameStatus?game_id=17
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (720)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 14:14:26 [error] [php] Undefined index: game_status (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:725)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/updateGameStatus
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (725)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 14:22:56 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:786)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/userAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (786)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 14:23:34 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:786)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/userAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (786)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 14:24:43 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:786)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/userAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (786)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 14:24:47 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:786)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/userAchievement?user_id=11
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (786)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 14:26:02 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:786)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/userAchievement?user_id=12
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (786)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 14:37:34 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: DELETE FROM `game_details` WHERE game_id=:user_id.
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (868)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 14:37:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: DELETE FROM `game_details` WHERE game_id=:user_id' in C:\xampp\htdocs\Actingout\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(1750): CDbCommand->execute()
+#1 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(868): CActiveRecord->deleteAll(Object(CDbCriteria))
+#2 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionEndGame()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('endGame')
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/endGame')
+#8 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Actingout/index.php/api/endGame
+---
+2012/09/07 14:40:19 [error] [php] Object of class CDbCriteria could not be converted to int (C:\xampp\htdocs\Actingout\framework\db\schema\CDbColumnSchema.php:142)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(1732): CDbCommandBuilder->createPkCriteria()
+#1 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(868): GameDetails->deleteByPk()
+#2 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionEndGame()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#8 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/endGame
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (868)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 14:41:34 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: DELETE FROM `game_details` WHERE game_id=:user_id.
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (868)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 14:41:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: DELETE FROM `game_details` WHERE game_id=:user_id' in C:\xampp\htdocs\Actingout\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(1750): CDbCommand->execute()
+#1 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(868): CActiveRecord->deleteAll(Object(CDbCriteria))
+#2 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionEndGame()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('endGame')
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/endGame')
+#8 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Actingout/index.php/api/endGame
+---
+2012/09/07 15:02:57 [error] [php] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:973) (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:1055)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionGameSearch()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/gameSearch
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1055)
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (976)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 15:06:29 [error] [php] Undefined index: user_id (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:996)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/searchQue
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (996)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 15:24:07 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:1037)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/usersGames
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1037)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 15:25:45 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:1037)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/usersGames
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1037)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 15:26:03 [error] [php] Illegal string offset 'game_time' (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:1037)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/usersGames
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1037)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 15:35:43 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "actionuserLogin".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): CComponent->__call('actionuserLogin', Array)
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionuserLogin()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('userLogin')
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/userLogin')
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Actingout/index.php/api/userLogin
+---
+2012/09/07 15:36:24 [error] [php] Undefined index: user_password (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/userLogin
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (23)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 15:38:25 [error] [php] Undefined index: user_email (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:24)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/userLogin
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (24)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 15:46:05 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\Actingout\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(93): spl_autoload_call()
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionRegistration()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/registration
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (93)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 15:46:53 [error] [php] Undefined variable: user_name (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:95)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/registration
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (95)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 15:48:26 [error] [exception.CException] exception 'CException' with message 'Property "UserDetails.id" is not defined.' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(144): CComponent->__get('id')
+#1 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(104): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionRegistration()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('registration')
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/registratio...')
+#8 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Actingout/index.php/api/registration
+---
+2012/09/07 15:51:48 [error] [exception.CException] exception 'CException' with message 'Property "UserDetails.id" is not defined.' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(144): CComponent->__get('id')
+#1 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(103): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionRegistration()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('registration')
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/registratio...')
+#8 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Actingout/index.php/api/registration
+---
+2012/09/07 15:53:18 [error] [exception.CException] exception 'CException' with message 'Property "UserDetails.id" is not defined.' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\db\ar\CActiveRecord.php(144): CComponent->__get('id')
+#1 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(103): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionRegistration()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('registration')
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/registratio...')
+#8 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Actingout/index.php/api/registration
+---
+2012/09/07 16:44:29 [error] [php] Undefined index: status (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:390)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (390)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 16:46:43 [error] [php] Undefined index: status (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:409)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (409)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 16:50:00 [error] [php] Undefined index: game_category (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:404)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (404)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/07 16:52:47 [error] [php] Undefined index: result (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:454)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (454)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 08:32:19 [error] [php] Undefined index: status (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:1143)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1143)
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (429)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 09:43:26 [error] [php] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:432) (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:1080)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionCheckAchievement()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1080)
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (447)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 09:47:30 [error] [php] Undefined variable: ach_user (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:500)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (500)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 10:10:03 [error] [php] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:471) (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:1078)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionCheckAchievement()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1078)
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (498)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 12:25:08 [error] [php] unserialize(): Unexpected end of serialized data (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:408)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (408)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 12:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "actionSearchQue".' in C:\xampp\htdocs\Actingout\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(271): CController->missingAction('actionSearchQue')
+#1 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('actionSearchQue')
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/actionSearc...')
+#3 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Actingout/index.php/api/actionSearchQue
+---
+2012/09/08 13:36:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "game_id".' in C:\xampp\htdocs\Actingout\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(271): CController->missingAction('game_id')
+#1 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('game_id')
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/game_id')
+#3 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Actingout/index.php/api/game_id
+---
+2012/09/08 14:50:18 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:382)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (382)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 14:51:22 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:382)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/checkAchievement/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (382)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 15:14:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "actionSaveFile".' in C:\xampp\htdocs\Actingout\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(271): CController->missingAction('actionSaveFile')
+#1 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('actionSaveFile')
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/actionSaveF...')
+#3 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Actingout/index.php/api/actionSaveFile
+---
+2012/09/08 15:15:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "actionSaveFile".' in C:\xampp\htdocs\Actingout\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(271): CController->missingAction('actionSaveFile')
+#1 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('actionSaveFile')
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/actionSaveF...')
+#3 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Actingout/index.php/api/actionSaveFile
+---
+2012/09/08 15:15:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "actionSaveFile".' in C:\xampp\htdocs\Actingout\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(271): CController->missingAction('actionSaveFile')
+#1 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('actionSaveFile')
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/actionSaveF...')
+#3 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Actingout/index.php/api/actionSaveFile
+---
+2012/09/08 15:15:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "save".' in C:\xampp\htdocs\Actingout\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(271): CController->missingAction('save')
+#1 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('save')
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/save')
+#3 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Actingout/index.php/api/saveFile
+---
+2012/09/08 15:16:28 [error] [php] Undefined index: file (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:987)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/saveFile
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (987)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 15:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "save".' in C:\xampp\htdocs\Actingout\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(271): CController->missingAction('save')
+#1 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('save')
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/save')
+#3 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Actingout/index.php/api/saveFile
+---
+2012/09/08 15:19:04 [error] [php] Undefined index: file (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:986)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (986)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 15:19:07 [error] [php] Undefined index: file (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:986)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (986)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 15:50:32 [error] [php] Undefined variable: fileName (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:1004)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1004)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 15:55:16 [error] [php] move_uploaded_file(/Actingout/videos/main.php): failed to open stream: No such file or directory (C:\xampp\htdocs\Actingout\framework\web\CUploadedFile.php:197)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1002)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 15:56:46 [error] [php] move_uploaded_file(/Actingout/videos/main.php): failed to open stream: No such file or directory (C:\xampp\htdocs\Actingout\framework\web\CUploadedFile.php:197)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1002)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 15:56:50 [error] [php] move_uploaded_file(/Actingout/videos/main.php): failed to open stream: No such file or directory (C:\xampp\htdocs\Actingout\framework\web\CUploadedFile.php:197)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1002)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 15:58:38 [error] [php] move_uploaded_file(/Actingout/videos/main.php): failed to open stream: No such file or directory (C:\xampp\htdocs\Actingout\framework\web\CUploadedFile.php:197)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1002)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 16:00:10 [error] [php] Undefined variable: filename (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:1002)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1002)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 16:01:20 [error] [php] move_uploaded_file(http://127.0.0.1/Actingout/videos/main.php): failed to open stream: HTTP wrapper does not support writeable connections (C:\xampp\htdocs\Actingout\framework\web\CUploadedFile.php:197)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1003)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 16:04:21 [error] [php] move_uploaded_file(http://127.0.0.1/Actingout/videos/): failed to open stream: HTTP wrapper does not support writeable connections (C:\xampp\htdocs\Actingout\framework\web\CUploadedFile.php:197)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1003)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 16:05:03 [error] [php] move_uploaded_file(http://127.0.0.1/1/): failed to open stream: HTTP wrapper does not support writeable connections (C:\xampp\htdocs\Actingout\framework\web\CUploadedFile.php:197)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1003)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 16:06:36 [error] [php] move_uploaded_file(http://127.0.0.1/1): failed to open stream: HTTP wrapper does not support writeable connections (C:\xampp\htdocs\Actingout\framework\web\CUploadedFile.php:197)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1003)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 16:06:42 [error] [php] move_uploaded_file(http://127.0.0.1/1): failed to open stream: HTTP wrapper does not support writeable connections (C:\xampp\htdocs\Actingout\framework\web\CUploadedFile.php:197)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1003)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 16:07:46 [error] [php] move_uploaded_file(D:): failed to open stream: Invalid argument (C:\xampp\htdocs\Actingout\framework\web\CUploadedFile.php:197)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1003)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/08 16:08:22 [error] [php] move_uploaded_file(): The second argument to copy() function cannot be a directory (C:\xampp\htdocs\Actingout\framework\web\CUploadedFile.php:197)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#4 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1003)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/10 13:16:01 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:630)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/userUpdate
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (630)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/10 13:52:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "enGame".' in C:\xampp\htdocs\Actingout\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(271): CController->missingAction('enGame')
+#1 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('enGame')
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/enGame')
+#3 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Actingout/index.php/api/enGame
+---
+2012/09/10 13:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "enGame".' in C:\xampp\htdocs\Actingout\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(271): CController->missingAction('enGame')
+#1 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('enGame')
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/enGame')
+#3 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Actingout/index.php/api/enGame
+---
+2012/09/10 14:02:07 [error] [php] Undefined variable: filename (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:1013)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1013)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/11 12:04:24 [error] [php] Undefined variable: filename (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:1020)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1020)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/11 12:05:03 [error] [php] include(S3.php): failed to open stream: No such file or directory (C:\xampp\htdocs\Actingout\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php(38): spl_autoload_call()
+#1 C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php(26): ES3->connect()
+#2 C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php(49): ES3->getInstance()
+#3 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(1020): ES3->upload()
+#4 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#7 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#8 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#9 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php (38)
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php (26)
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php (49)
+2012/09/11 12:22:31 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.file" is not defined.' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\base\CModule.php(106): CComponent->__get('file')
+#1 C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php(64): CModule->__get('file')
+#2 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(1020): ES3->upload('C:\xampp\tmp\ph...', 'C:\xampp\htdocs...', 's3_BucketName')
+#3 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('save')
+#8 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/save')
+#9 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Actingout/index.php/api/save/
+HTTP_REFERER=http://127.0.0.1/1/1.php
+---
+2012/09/11 12:38:38 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.file.CFile" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\Actingout\framework\YiiBase.php:318
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 C:\xampp\htdocs\Actingout\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\Actingout\framework\base\CModule.php(104): CModule->getComponent('file')
+#3 C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php(64): CModule->__get('file')
+#4 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(1020): ES3->upload('C:\xampp\tmp\ph...', 'C:\xampp\htdocs...', 's3_BucketName')
+#5 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#6 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('save')
+#10 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/save')
+#11 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/Actingout/index.php/api/save/
+HTTP_REFERER=http://127.0.0.1/1/1.php
+---
+2012/09/11 12:41:13 [error] [php] S3::putObject(): [InvalidArgument] Authorization header is invalid -- one and only one ' ' (space) required (C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php:359)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php(84): putObjectFile()
+#1 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(1020): ES3->upload()
+#2 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#8 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php (359)
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php (378)
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php (84)
+2012/09/11 12:54:29 [error] [php] S3::putObject(): [InvalidArgument] Authorization header is invalid -- one and only one ' ' (space) required (C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php:359)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php(84): putObjectFile()
+#1 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(1020): ES3->upload()
+#2 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#8 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php (359)
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php (378)
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php (84)
+2012/09/11 13:07:05 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php:351)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(1020): ES3->upload()
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php (351)
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php (378)
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php (84)
+2012/09/11 13:08:00 [error] [php] S3::putObject(): [InvalidArgument] Authorization header is invalid -- one and only one ' ' (space) required (C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php:359)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php(84): putObjectFile()
+#1 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(1020): ES3->upload()
+#2 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#8 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php (359)
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php (378)
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php (84)
+2012/09/11 13:08:36 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php:351)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(1020): ES3->upload()
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php (351)
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php (378)
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php (84)
+2012/09/11 14:38:04 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php:351)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(1022): ES3->upload()
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/save/
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php (351)
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php (378)
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php (84)
+2012/09/11 15:34:32 [error] [exception.CException] exception 'CException' with message 'ES3 and its behaviors do not have a method or closure named "getBucket".' in C:\xampp\htdocs\Actingout\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(1285): CComponent->__call('getBucket', Array)
+#1 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(1285): ES3->getBucket('actingout-store...')
+#2 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionAmazonS3test()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('amazonS3test')
+#7 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/amazonS3tes...')
+#8 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Actingout/index.php/api/amazonS3test
+---
+2012/09/11 15:40:56 [error] [php] S3::getBucket(): [InvalidAccessKeyId] The AWS Access Key Id you provided does not exist in our records. (C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php:137)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(1285): ES3->getBucket()
+#1 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionAmazonS3test()
+#2 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#4 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#5 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#6 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/amazonS3test
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\S3.php (137)
+in C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php (131)
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1285)
+2012/09/11 16:12:31 [error] [php] Undefined variable: folder (C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php:1286)
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Actingout\index.php(13): CWebApplication->run()
+REQUEST_URI=/Actingout/index.php/api/amazonS3test
+in C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php (1286)
+in C:\xampp\htdocs\Actingout\index.php (13)
+2012/09/11 16:43:29 [error] [exception.CException] exception 'CException' with message 'S3 Keys are not set.' in C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php:42
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php(32): ES3->connect()
+#1 C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php(28): ES3->getInstance()
+#2 C:\xampp\htdocs\Actingout\framework\YiiBase.php(219): ES3->__construct()
+#3 C:\xampp\htdocs\Actingout\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#4 C:\xampp\htdocs\Actingout\framework\base\CModule.php(104): CModule->getComponent('s3')
+#5 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(1030): CModule->__get('s3')
+#6 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#7 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('save')
+#11 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/save')
+#12 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Actingout/index.php/api/save/
+HTTP_REFERER=http://127.0.0.1/1/1.php
+---
+2012/09/11 16:43:50 [error] [exception.CException] exception 'CException' with message 'S3 Keys are not set.' in C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php:42
+Stack trace:
+#0 C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php(32): ES3->connect()
+#1 C:\xampp\htdocs\Actingout\protected\extensions\s3\ES3.php(28): ES3->getInstance()
+#2 C:\xampp\htdocs\Actingout\framework\YiiBase.php(219): ES3->__construct()
+#3 C:\xampp\htdocs\Actingout\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#4 C:\xampp\htdocs\Actingout\framework\base\CModule.php(104): CModule->getComponent('s3')
+#5 C:\xampp\htdocs\Actingout\protected\controllers\ApiController.php(1030): CModule->__get('s3')
+#6 C:\xampp\htdocs\Actingout\framework\web\actions\CInlineAction.php(50): ApiController->actionSave()
+#7 C:\xampp\htdocs\Actingout\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\Actingout\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\Actingout\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(283): CController->run('save')
+#11 C:\xampp\htdocs\Actingout\framework\web\CWebApplication.php(142): CWebApplication->runController('api/save')
+#12 C:\xampp\htdocs\Actingout\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Actingout\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Actingout/index.php/api/save/
+HTTP_REFERER=http://127.0.0.1/1/1.php
+---
+
